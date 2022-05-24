@@ -5,7 +5,7 @@
 }
 
 body {
-	background-color: #FFCE00;
+	background-color: green;
 	font-family: 'Roboto', Helvetica, sans-serif;
 }
 
@@ -54,4 +54,11 @@ header {
 	padding: 15px 20px;
 	text-align: center;
 	margin: 4px 0px;
+}
+
+.list .selected {
+	border-color:#FFCE00 ;
+	/* box-shadow:  0 0 10rgb(11, 10, 7)E00; */
+	box-shadow: 0 0 3px 2px #FFCE00;
+	
 }
